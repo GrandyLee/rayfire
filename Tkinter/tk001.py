@@ -1,6 +1,10 @@
 from tkinter import *
+
+
 def callback():
     var.set("吹吧，我才不信呢！")
+
+
 root = Tk()
 frame1 = Frame(root)
 frame2 = Frame(root)
