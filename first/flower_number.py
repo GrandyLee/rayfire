@@ -1,5 +1,5 @@
 #coding=utf-8
-from selenium import webdriver
+# from selenium import webdriver
 import os
 import time
 import tkinter
@@ -16,6 +16,8 @@ import tkinter
 #         print(number)
 #
 #
+
+
 def flower_numb(number):  # 水仙花数
     first = number // 100  # 取百位数
     second = number // 10 % 10  # 取十位数
@@ -32,9 +34,6 @@ print(list_flower_number)
 # list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 # list2 = list(filter(is_odd, list1))
 # print(list2)
-
-
-
 # number = 159
 
 for number in range(100, 999):
