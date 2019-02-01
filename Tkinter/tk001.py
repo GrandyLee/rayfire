@@ -17,7 +17,7 @@ textLabel = Label(frame1,
 textLabel.pack(side=LEFT)
 
 photo = PhotoImage(file="G:/rayfire//images/1png.png")
-imageLabel = Label(frame1, image=photo, height=40, width=40)
+imageLabel = Label(frame1, image=photo)  # , height=40, width=40
 imageLabel.pack()
 
 theButton = Button(frame2, text="我已经点了！", command=callback)
