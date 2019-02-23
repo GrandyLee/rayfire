@@ -1,0 +1,1290 @@
+{
+  "id": "72696c06-acff-4c36-a2f0-895d5064b5ce",
+  "name": "放管服",
+  "allTests": [],
+  "timestamp": "2019-02-20T08:09:17.105Z",
+  "collection_id": "f3de82fb-c14d-4d28-906a-2bb67a9e8e43",
+  "folder_id": 0,
+  "target_type": "collection",
+  "environment_id": "361ce4b3-043a-4602-8233-ffbd7d290062",
+  "data": [],
+  "delay": 0,
+  "count": 1,
+  "collection": {
+    "id": "f3de82fb-c14d-4d28-906a-2bb67a9e8e43",
+    "name": "放管服",
+    "description": "接口测试",
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [
+      "a3a0e765-e73a-46bc-937a-5a70e93c1251",
+      "98a2d27d-ee18-46e3-9881-cf2a2cf6624c",
+      "21a11698-eb34-4d70-91dd-c8eb41449891",
+      "c6695d5a-aa61-471f-9f50-6d94e338d72f",
+      "86f73ef1-f80c-4a1a-92ad-13f381613ce5"
+    ],
+    "owner": "0",
+    "permissions": {},
+    "favorite": false,
+    "shared": false,
+    "type": "collection",
+    "depth": 0
+  },
+  "folder": null,
+  "environment": null,
+  "globals": [
+    {
+      "key": "id_Number",
+      "value": "",
+      "description": "",
+      "enabled": true
+    }
+  ],
+  "results": [
+    {
+      "name": "登录",
+      "id": "ce6c6df8-a705-4702-87f4-745f1208edba",
+      "url": "http://222.85.150.247:10011/dmsmp/login",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "385"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "385",
+      "totalRequestTime": "385",
+      "iterationResults": {}
+    },
+    {
+      "name": "机构列表查询",
+      "id": "0d5bbed8-c846-4ba6-9324-63ec3dd2c1ab",
+      "url": "http://222.85.150.247:10011/dmsmp/sysOrg/getOrg",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "647"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "647",
+      "totalRequestTime": "647",
+      "iterationResults": {}
+    },
+    {
+      "name": "添加机构",
+      "id": "d200a5e8-64c2-48be-892a-1ab041ce7727",
+      "url": "http://222.85.150.247:10011/dmsmp/sysOrg/addOrg",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "171"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "171",
+      "totalRequestTime": "171",
+      "iterationResults": {}
+    },
+    {
+      "name": "更新机构信息",
+      "id": "0eff0ee0-7332-4a79-bb2f-57d0fb35caa1",
+      "url": "http://222.85.150.247:10011/dmsmp/sysOrg/updateOrg",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "185"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "185",
+      "totalRequestTime": "185",
+      "iterationResults": {}
+    },
+    {
+      "name": "删除机构",
+      "id": "fdadf522-9d14-47ec-a729-ab1e3d3b84c0",
+      "url": "http://222.85.150.247:10011/dmsmp/sysOrg/deleteOrg",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "153"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "153",
+      "totalRequestTime": "153",
+      "iterationResults": {}
+    },
+    {
+      "name": "角色详情",
+      "id": "97017480-3d88-48ac-9b3e-7bee292b8cb9",
+      "url": "http://222.85.150.247:10011/dmsmp/sysRole/getRoles",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "116"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "116",
+      "totalRequestTime": "116",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取角色菜单列表",
+      "id": "d69ede6b-336c-483a-9d0a-02fcbe0e100f",
+      "url": "http://222.85.150.247:10011/dmsmp/sysRole/getMenu",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass",
+        "Status code is 200": true
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "110"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "110",
+      "totalRequestTime": "110",
+      "iterationResults": {}
+    },
+    {
+      "name": "添加角色",
+      "id": "1430e426-6397-4ae2-a615-a6be230c9aab",
+      "url": "http://222.85.150.247:10011/dmsmp/sysRole/insertSysRole",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "testPassFailCounts": {},
+      "times": [
+        "111"
+      ],
+      "allTests": [
+        {}
+      ],
+      "time": "111",
+      "totalRequestTime": "111",
+      "iterationResults": {}
+    },
+    {
+      "name": "删除角色",
+      "id": "96a0cb1d-091d-42a2-86c5-80cd7b9389d7",
+      "url": "http://222.85.150.247:10011/dmsmp/sysRole/insertSysRole",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "testPassFailCounts": {},
+      "times": [
+        "109"
+      ],
+      "allTests": [
+        {}
+      ],
+      "time": "109",
+      "totalRequestTime": "109",
+      "iterationResults": {}
+    },
+    {
+      "name": "用户管理",
+      "id": "9635510b-c120-4103-b3a4-b42bc51b3977",
+      "url": "http://222.85.150.247:10011/dmsmp/sysUser/pageInfo",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "123"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "123",
+      "totalRequestTime": "123",
+      "iterationResults": {}
+    },
+    {
+      "name": "添加用户",
+      "id": "7ad3f40d-7bc9-4248-8b10-0d73970d4955",
+      "url": "http://222.85.150.247:10011/dmsmp/sysUser/insertSysUser",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": {
+          "actual": "{\"code\":500,\"msg\":\"身份证校验码无效，不是合法的身份证号码\",\"status\":0,\"result\":null}",
+          "message": "expected '{\"code\":500,\"msg\":\"身份证校验码无效，不是合法的身份证号码\",\"status\":0,\"result\":null}' to include '200'",
+          "name": "AssertionError",
+          "showDiff": false,
+          "stack": "AssertionError: expected '{\"code\":500,\"msg\":\"身份证校验码无效，不是合法的身份证号码\",\"status\":0,\"result\":null}' to include '200'\n    at eval (eval at exec (evalmachine.<anonymous>:12494:2548), <anonymous>:9:38)\n    at Postman.n.test (evalmachine.<anonymous>:75:212)\n    at Object.eval (eval at exec (evalmachine.<anonymous>:12494:2548), <anonymous>:8:4)\n    at Uniscope.exec (evalmachine.<anonymous>:12494:2583)\n    at module.exports (evalmachine.<anonymous>:63:538)\n    at Object.<anonymous> (evalmachine.<anonymous>:66:1694)\n    at evalmachine.<anonymous>:16:26\n    at Array.forEach (<anonymous>)\n    at Object.emit (evalmachine.<anonymous>:15:54)\n    at evalmachine.<anonymous>:52:24"
+        },
+        "name": "Status code is 200",
+        "status": "fail"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 0,
+          "fail": 1
+        }
+      },
+      "times": [
+        "110"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": false
+        }
+      ],
+      "time": "110",
+      "totalRequestTime": "110",
+      "iterationResults": {}
+    },
+    {
+      "name": "角色分配",
+      "id": "2e5ca322-2d39-4c4c-b7fd-433516d31222",
+      "url": "http://222.85.150.247:10011/dmsmp/sysUser/distriUserRole",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": {
+          "actual": "{\"code\":500,\"msg\":\"分配失败\",\"status\":1,\"result\":null}",
+          "message": "expected '{\"code\":500,\"msg\":\"分配失败\",\"status\":1,\"result\":null}' to include '200'",
+          "name": "AssertionError",
+          "showDiff": false,
+          "stack": "AssertionError: expected '{\"code\":500,\"msg\":\"分配失败\",\"status\":1,\"result\":null}' to include '200'\n    at eval (eval at exec (evalmachine.<anonymous>:12494:2548), <anonymous>:5:38)\n    at Postman.n.test (evalmachine.<anonymous>:75:212)\n    at Object.eval (eval at exec (evalmachine.<anonymous>:12494:2548), <anonymous>:4:4)\n    at Uniscope.exec (evalmachine.<anonymous>:12494:2583)\n    at module.exports (evalmachine.<anonymous>:63:538)\n    at Object.<anonymous> (evalmachine.<anonymous>:66:1694)\n    at evalmachine.<anonymous>:16:26\n    at Array.forEach (<anonymous>)\n    at Object.emit (evalmachine.<anonymous>:15:54)\n    at evalmachine.<anonymous>:52:24"
+        },
+        "name": "Status code is 200",
+        "status": "fail"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 0,
+          "fail": 1
+        }
+      },
+      "times": [
+        "506"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": false
+        }
+      ],
+      "time": "506",
+      "totalRequestTime": "506",
+      "iterationResults": {}
+    },
+    {
+      "name": "添加预警",
+      "id": "9c5c96bc-994e-410d-9163-ddb0673ae8bf",
+      "url": "http://222.85.150.247:10011/dmsmp/sysThresholdCfg/add",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": {
+          "actual": "{\"code\":10308,\"msg\":\"该预警已配置\",\"status\":0,\"result\":null}",
+          "message": "expected '{\"code\":10308,\"msg\":\"该预警已配置\",\"status\":0,\"result\":null}' to include '200'",
+          "name": "AssertionError",
+          "showDiff": false,
+          "stack": "AssertionError: expected '{\"code\":10308,\"msg\":\"该预警已配置\",\"status\":0,\"result\":null}' to include '200'\n    at eval (eval at exec (evalmachine.<anonymous>:12494:2548), <anonymous>:5:38)\n    at Postman.n.test (evalmachine.<anonymous>:75:212)\n    at Object.eval (eval at exec (evalmachine.<anonymous>:12494:2548), <anonymous>:4:4)\n    at Uniscope.exec (evalmachine.<anonymous>:12494:2583)\n    at module.exports (evalmachine.<anonymous>:63:538)\n    at Object.<anonymous> (evalmachine.<anonymous>:66:1694)\n    at evalmachine.<anonymous>:16:26\n    at Array.forEach (<anonymous>)\n    at Object.emit (evalmachine.<anonymous>:15:54)\n    at evalmachine.<anonymous>:52:24"
+        },
+        "name": "Status code is 200",
+        "status": "fail"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 0,
+          "fail": 1
+        }
+      },
+      "times": [
+        "114"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": false
+        }
+      ],
+      "time": "114",
+      "totalRequestTime": "114",
+      "iterationResults": {}
+    },
+    {
+      "name": "开关阈值",
+      "id": "a88f18e5-24cf-4b81-872b-ae7ed533fc19",
+      "url": "http://222.85.150.247:10011/dmsmp/sysThresholdCfg/startOff",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "146"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "146",
+      "totalRequestTime": "146",
+      "iterationResults": {}
+    },
+    {
+      "name": "删除预警",
+      "id": "3fb4f8b9-ff5a-41ae-9b8e-0b36342ced59",
+      "url": "http://222.85.150.247:10011/dmsmp/sysThresholdCfg/delete",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "155"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "155",
+      "totalRequestTime": "155",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取预警字典",
+      "id": "5d42e205-0886-48ea-b372-4c6edab40574",
+      "url": "http://222.85.150.247:10011/dmsmp/sysThresholdCfg/getWarningDict",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "112"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "112",
+      "totalRequestTime": "112",
+      "iterationResults": {}
+    },
+    {
+      "name": "已添加的预警详情",
+      "id": "ea4d863c-cece-4ba0-8bcb-a8a2af465029",
+      "url": "http://222.85.150.247:10011/dmsmp/sysThresholdCfg/getWarning",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "118"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "118",
+      "totalRequestTime": "118",
+      "iterationResults": {}
+    },
+    {
+      "name": "预约人数、考试人数、人工审核人数时间维度查询",
+      "id": "2688c2c7-ca4e-4b95-9c9c-5ab488288a8c",
+      "url": "http://222.85.150.247:10011/dmsmp/subjectOneSupervise/dateCount",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "testPassFailCounts": {},
+      "times": [
+        "158"
+      ],
+      "allTests": [
+        {}
+      ],
+      "time": "158",
+      "totalRequestTime": "158",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取考场列表以及未处理的预警数",
+      "id": "a9476c99-43b3-4e87-a97a-70bfe9cf016e",
+      "url": "http://222.85.150.247:10011/dmsmp/subjectOneSupervise/getExamRoomList",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "272"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "272",
+      "totalRequestTime": "272",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取考场列表",
+      "id": "866a1892-76c2-4170-a023-8f09820505fa",
+      "url": "http://222.85.150.247:10011/dmsmp/subjectOneSupervise/dateCount",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "110"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "110",
+      "totalRequestTime": "110",
+      "iterationResults": {}
+    },
+    {
+      "name": "预警总数和未处理总数统计",
+      "id": "8f64fcb8-90ac-4b02-92f6-490c6a258cc6",
+      "url": "http://222.85.150.247:10011/dmsmp/subjectOneSupervise/getExcCount",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "110"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "110",
+      "totalRequestTime": "110",
+      "iterationResults": {}
+    },
+    {
+      "name": "子预警总数和未处理总数统计",
+      "id": "cdd71794-8288-4437-8a88-2ad9fa3eccfd",
+      "url": "http://222.85.150.247:10011/dmsmp/subjectOneSupervise/getExcCount",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "112"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "112",
+      "totalRequestTime": "112",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取考场实时数据",
+      "id": "bb81488d-33b0-42b6-b249-2fe340c156c3",
+      "url": "http://222.85.150.247:10011/dmsmp/subjectOneSupervise/getRealTimeData",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "9831"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "9831",
+      "totalRequestTime": "9831",
+      "iterationResults": {}
+    },
+    {
+      "name": "门禁通过数和未通过数统计",
+      "id": "ec48eaae-d667-4862-b93b-a01fb24a861a",
+      "url": "http://222.85.150.247:10011/dmsmp/subjectOneSupervise/getRealTimeData",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "10257"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "10257",
+      "totalRequestTime": "10257",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取硬件开启异常数据",
+      "id": "45c2eb1a-d9ca-4c97-904e-92d47d59674c",
+      "url": "http://222.85.150.247:10011/dmsmp/subjectOneSupervise/getRealTimeData",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "9998"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "9998",
+      "totalRequestTime": "9998",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取驾校列表",
+      "id": "e84ece24-2002-4819-8e27-b329826fb677",
+      "url": "http://222.85.150.247:10011/dmsmp/drivingSchool/getSchool",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "214"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "214",
+      "totalRequestTime": "214",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取驾校详情",
+      "id": "597e0e6b-384e-4627-b7f8-75d9d1b8ee18",
+      "url": "http://222.85.150.247:10011/dmsmp/drivingSchool/getSchool",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "109"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "109",
+      "totalRequestTime": "109",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取科目一未通过学员名单",
+      "id": "3353dc03-b744-4df9-a5c1-96d12088749c",
+      "url": "http://222.85.150.247:10011/dmsmp/drivingSchool/getSchool",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "119"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "119",
+      "totalRequestTime": "119",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取指定驾校科目统计数据",
+      "id": "89833cb4-97d0-496d-8107-f9b67f8646a5",
+      "url": "http://222.85.150.247:10011/dmsmp/drivingSchool/getSchool",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "118"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "118",
+      "totalRequestTime": "118",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取指定驾校通过率统计数据",
+      "id": "0fab58d6-c08a-4125-89cf-cbb8761acf8e",
+      "url": "http://222.85.150.247:10011/dmsmp/drivingSchool/getSchool",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "109"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "109",
+      "totalRequestTime": "109",
+      "iterationResults": {}
+    },
+    {
+      "name": "获取所有驾校数据合计",
+      "id": "53158dab-d642-4c7f-ac87-9f6dac047382",
+      "url": "http://222.85.150.247:10011/dmsmp/drivingSchool/getSchool",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "108"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "108",
+      "totalRequestTime": "108",
+      "iterationResults": {}
+    },
+    {
+      "name": "机位分析导出Excel",
+      "id": "057be1d4-ca6a-4294-a06c-951dd6629c76",
+      "url": "http://222.85.150.247:10011/dmsmp/drivingSchool/getSchool",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "109"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "109",
+      "totalRequestTime": "109",
+      "iterationResults": {}
+    },
+    {
+      "name": "考场分析导出Excel",
+      "id": "230be5c2-561d-4b02-9865-ded82d70ea6e",
+      "url": "http://222.85.150.247:10011/dmsmp/drivingSchool/getSchool",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "107"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "107",
+      "totalRequestTime": "107",
+      "iterationResults": {}
+    },
+    {
+      "name": "考场分析",
+      "id": "be9db663-c644-4350-9992-7b06e8e903cb",
+      "url": "http://222.85.150.247:10011/dmsmp/smartReport/examinationRoomAnalysis",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "107"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "107",
+      "totalRequestTime": "107",
+      "iterationResults": {}
+    },
+    {
+      "name": "机位分析",
+      "id": "17e81d2e-440e-43d4-8114-e4214f7fd368",
+      "url": "http://222.85.150.247:10011/dmsmp/smartReport/positionAnalysis",
+      "totalTime": 0,
+      "responseCode": {
+        "code": 200,
+        "name": "OK",
+        "detail": {
+          "name": "OK",
+          "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+        }
+      },
+      "tests": {
+        "error": null,
+        "name": "Status code is 200",
+        "status": "pass"
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        "108"
+      ],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ],
+      "time": "108",
+      "totalRequestTime": "108",
+      "iterationResults": {}
+    }
+  ]
+}
