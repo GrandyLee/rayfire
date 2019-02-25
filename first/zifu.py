@@ -16,7 +16,15 @@
 
 #!/usr/bin/env python
 
-
+import json
+import string
 f = open('放管服.postman_test_run20190220.json', 'rb')
 test_json = f.read(-1)
-print(test_json)
+qwe = json.loads(test_json)
+print(qwe)
+result1 = qwe["results"]
+print(result1)
+
+
+result2 = ''.join(result1)
+print(result2)
