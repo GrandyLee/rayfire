@@ -15,3 +15,4 @@ def hanoi(n, x, y, z):
 n = int(input('请输入汉诺塔的层数：'))
 hanoi(n, 'x', 'y', 'z')
 print("总共需要移动至少"+str(i)+"次！")
+
