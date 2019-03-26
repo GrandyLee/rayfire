@@ -1,0 +1,4128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="监管服生产测试">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.14">
+    <root id="1">
+      <ServerVersion>5.7.22</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="fmsmp">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="mysql">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="sys">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="zc_supervise">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <collation id="8" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="9" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="10" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="11" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="12" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="13" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="14" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="15" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="16" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="17" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="18" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="19" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="20" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="21" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="22" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="23" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="24" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="25" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="27" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="29" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="31" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="33" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="35" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="37" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="39" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="41" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="42" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="43" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="45" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="46" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="47" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="49" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="50" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="54" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="56" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="58" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="61" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="62" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="63" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="65" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="66" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="69" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="70" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="73" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="74" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="75" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="77" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="78" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="79" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="81" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="83" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="85" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="87" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="89" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="90" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="91" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="93" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="94" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="95" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="97" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="98" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="99" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="101" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="102" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="103" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="104" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="105" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="106" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="107" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="108" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="109" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="110" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="112" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="114" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="118" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="120" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="121" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="123" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="127" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="128" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="129" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="130" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="132" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="133" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="134" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="136" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="137" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="138" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="140" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="141" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="142" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="143" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="145" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="146" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="147" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="149" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="150" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="151" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="152" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="153" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="155" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="157" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="158" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="159" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="160" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="161" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="162" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="163" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="164" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="165" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="166" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="167" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="168" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="169" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="170" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="171" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="172" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="173" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="174" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="175" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="176" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="177" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="178" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="179" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="180" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="181" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="183" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="185" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="186" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="187" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="190" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="191" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="192" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="193" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="194" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="195" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="196" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="197" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="198" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="199" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="200" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="201" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="202" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="203" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="204" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="205" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="206" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="207" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="208" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="209" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="210" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="211" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="212" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="213" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="214" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="217" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="219" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="221" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="223" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="224" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="225" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="226" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="227" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="228" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="229" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <table id="230" parent="2" name="dictionary"/>
+    <table id="231" parent="2" name="dictionary_warning"/>
+    <table id="232" parent="2" name="m_absent_examinee">
+      <Comment>缺考考生名单表</Comment>
+    </table>
+    <table id="233" parent="2" name="m_apply_statistics">
+      <Comment>驾校报名统计表</Comment>
+    </table>
+    <table id="234" parent="2" name="m_data_compute_log">
+      <Comment>大数据离线计算输出日志</Comment>
+    </table>
+    <table id="235" parent="2" name="m_driving_school_earliest">
+      <Comment>驾校统计总表（单个驾校所有历史数据统计汇总表）</Comment>
+    </table>
+    <table id="236" parent="2" name="m_driving_school_info">
+      <Comment>驾校基本信息表</Comment>
+    </table>
+    <table id="237" parent="2" name="m_driving_school_month">
+      <Comment>驾校总计表</Comment>
+    </table>
+    <table id="238" parent="2" name="m_driving_school_statistics">
+      <Comment>驾校统计表</Comment>
+    </table>
+    <table id="239" parent="2" name="m_driving_school_total">
+      <Comment>驾校总计表</Comment>
+    </table>
+    <table id="240" parent="2" name="m_driving_school_total_day">
+      <Comment>单个驾校总计表</Comment>
+    </table>
+    <table id="241" parent="2" name="m_driving_school_year">
+      <Comment>驾校统计年表（统计周期当年）</Comment>
+    </table>
+    <table id="242" parent="2" name="m_entran_validate">
+      <Comment>门禁一通过校验表</Comment>
+    </table>
+    <table id="243" parent="2" name="m_entrance3_abnormal">
+      <Comment>门禁三通过异常人员表</Comment>
+    </table>
+    <table id="244" parent="2" name="m_entrance_statistics">
+      <Comment>门禁通过记录统计表</Comment>
+    </table>
+    <table id="245" parent="2" name="m_entrance_thr_abnormal">
+      <Comment>门禁三通过异常人员表</Comment>
+    </table>
+    <table id="246" parent="2" name="m_exam_record">
+      <Comment>学员考试记录表</Comment>
+    </table>
+    <table id="247" parent="2" name="m_examinee_photo">
+      <Comment>门禁二通过校验表</Comment>
+    </table>
+    <table id="248" parent="2" name="m_examinee_snapshot">
+      <Comment>抓拍照片校验表</Comment>
+    </table>
+    <table id="249" parent="2" name="m_examroom_info">
+      <Comment>考场基本信息表</Comment>
+    </table>
+    <table id="250" parent="2" name="m_hardware_info">
+      <Comment>硬件基本信息表</Comment>
+    </table>
+    <table id="251" parent="2" name="m_hardware_statistics">
+      <Comment>硬件状态统计表</Comment>
+    </table>
+    <table id="252" parent="2" name="m_hardware_status_log">
+      <Comment>硬件状态日志表</Comment>
+    </table>
+    <table id="253" parent="2" name="m_hardware_status_update">
+      <Comment>硬件状态更新表</Comment>
+    </table>
+    <table id="254" parent="2" name="m_manual_audit_verify">
+      <Comment>人工审核校验表</Comment>
+    </table>
+    <table id="255" parent="2" name="m_mutil_examinee">
+      <Comment>多次考试人员表</Comment>
+    </table>
+    <table id="256" parent="2" name="m_score_abnormal">
+      <Comment>分差异常考生表</Comment>
+    </table>
+    <table id="257" parent="2" name="m_station_statistics">
+      <Comment>考场机位统计表</Comment>
+    </table>
+    <table id="258" parent="2" name="quartz_job"/>
+    <table id="259" parent="2" name="sys_deal_log">
+      <Comment>预警处理日志表</Comment>
+    </table>
+    <table id="260" parent="2" name="sys_menu">
+      <Comment>菜单表</Comment>
+    </table>
+    <table id="261" parent="2" name="sys_menu_role">
+      <Comment>用户菜单关系表</Comment>
+    </table>
+    <table id="262" parent="2" name="sys_menu_user">
+      <Comment>用户菜单关系表</Comment>
+    </table>
+    <table id="263" parent="2" name="sys_org">
+      <Comment>系统组织表</Comment>
+    </table>
+    <table id="264" parent="2" name="sys_position">
+      <Comment>职位表</Comment>
+    </table>
+    <table id="265" parent="2" name="sys_process_info">
+      <Comment>流程信息表</Comment>
+    </table>
+    <table id="266" parent="2" name="sys_role">
+      <Comment>角色表</Comment>
+    </table>
+    <table id="267" parent="2" name="sys_role_user">
+      <Comment>用户角色关系表</Comment>
+    </table>
+    <table id="268" parent="2" name="sys_task_info">
+      <Comment>任务待办流水表</Comment>
+    </table>
+    <table id="269" parent="2" name="sys_threshold_cfg">
+      <Comment>阈值配置表</Comment>
+    </table>
+    <table id="270" parent="2" name="sys_user">
+      <Comment>用户表</Comment>
+    </table>
+    <table id="271" parent="2" name="sys_warning_flow_cfg">
+      <Comment>预警推送流程配置表</Comment>
+    </table>
+    <table id="272" parent="2" name="t_examinee_warning_info">
+      <Comment>考生预警信息表</Comment>
+    </table>
+    <table id="273" parent="2" name="t_examroom_exam_statistics">
+      <Comment>考场考试统计表</Comment>
+    </table>
+    <table id="274" parent="2" name="t_hardware_warning_info">
+      <Comment>硬件预警信息表</Comment>
+    </table>
+    <table id="275" parent="2" name="t_warning_count">
+      <Comment>预警统计表</Comment>
+    </table>
+    <table id="276" parent="2" name="t_warning_detail">
+      <Comment>预警详情表</Comment>
+    </table>
+    <table id="277" parent="2" name="t_warning_info">
+      <Comment>预警信息表</Comment>
+    </table>
+    <table id="278" parent="2" name="t_warning_type">
+      <Comment>预警类型表</Comment>
+    </table>
+    <column id="279" parent="230" name="id_">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="280" parent="230" name="code">
+      <Position>2</Position>
+      <Comment>编码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="281" parent="230" name="name">
+      <Position>3</Position>
+      <Comment>名称</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="230" name="type_code">
+      <Position>4</Position>
+      <Comment>类型编码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="230" name="type_name">
+      <Position>5</Position>
+      <Comment>类型名称</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="230" name="order_">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="230" name="status">
+      <Position>7</Position>
+      <Comment>状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="230" name="update_time">
+      <Position>8</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="287" parent="230" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="288" parent="231" name="warning_code">
+      <Position>1</Position>
+      <Comment>预警编号</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="231" name="statis_method">
+      <Position>2</Position>
+      <Comment>预警方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="231" name="value_unit">
+      <Position>3</Position>
+      <Comment>预警单位(1：/，2：个，3：次，4：%)</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="232" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="292" parent="232" name="examinee_name">
+      <Position>2</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="293" parent="232" name="identity_code">
+      <Position>3</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="294" parent="232" name="examroom_code">
+      <Position>4</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="295" parent="232" name="exam_date">
+      <Position>5</Position>
+      <Comment>考试日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="232" name="update_time">
+      <Position>6</Position>
+      <Comment>更新日期</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="297" parent="232" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="298" parent="233" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="233" name="school_code">
+      <Position>2</Position>
+      <Comment>驾校编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="233" name="applyer_count">
+      <Position>3</Position>
+      <Comment>报名人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="233" name="apply_date">
+      <Position>4</Position>
+      <Comment>报名日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="302" parent="233" name="update_time">
+      <Position>5</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="303" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="304" parent="234" name="id_">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="234" name="compute_name">
+      <Position>2</Position>
+      <Comment>计算名称</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="306" parent="234" name="status">
+      <Position>3</Position>
+      <Comment>计算状态</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <DefaultExpression>&apos;异常&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="307" parent="234" name="update_time">
+      <Position>4</Position>
+      <Comment>计算完成时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="308" parent="234" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="309" parent="235" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="310" parent="235" name="school_code">
+      <Position>2</Position>
+      <Comment>驾校编码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="311" parent="235" name="school_name">
+      <Position>3</Position>
+      <Comment>驾校名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="312" parent="235" name="pass_rate">
+      <Position>4</Position>
+      <Comment>科目一通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="313" parent="235" name="sub_one_rank">
+      <Position>5</Position>
+      <Comment>科目一排名</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="314" parent="235" name="one_pass_rate">
+      <Position>6</Position>
+      <Comment>一次通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="315" parent="235" name="extra_pass_rate">
+      <Position>7</Position>
+      <Comment>补考通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="316" parent="235" name="unpass_rate">
+      <Position>8</Position>
+      <Comment>未通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="317" parent="235" name="update_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="318" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="319" parent="236" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="320" parent="236" name="school_name">
+      <Position>2</Position>
+      <Comment>驾校名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="321" parent="236" name="school_code">
+      <Position>3</Position>
+      <Comment>驾校编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="322" parent="236" name="telephone">
+      <Position>4</Position>
+      <Comment>联系方式</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="323" parent="236" name="address">
+      <Position>5</Position>
+      <Comment>地址</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="324" parent="236" name="law_person">
+      <Position>6</Position>
+      <Comment>法人代表</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="325" parent="236" name="involve_busi">
+      <Position>7</Position>
+      <Comment>涉及业务</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="326" parent="236" name="school_photo">
+      <Position>8</Position>
+      <Comment>驾校照片</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="327" parent="236" name="update_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="328" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="329" parent="237" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="330" parent="237" name="school_code">
+      <Position>2</Position>
+      <Comment>驾校编码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="331" parent="237" name="school_name">
+      <Position>3</Position>
+      <Comment>驾校名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="332" parent="237" name="pass_rate">
+      <Position>4</Position>
+      <Comment>科目一通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="333" parent="237" name="sub_one_rank">
+      <Position>5</Position>
+      <Comment>科目一排名</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="237" name="one_pass_rate">
+      <Position>6</Position>
+      <Comment>一次通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="335" parent="237" name="extra_pass_rate">
+      <Position>7</Position>
+      <Comment>补考通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="336" parent="237" name="unpass_rate">
+      <Position>8</Position>
+      <Comment>未通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="337" parent="237" name="month">
+      <Position>9</Position>
+      <Comment>月份（yyyy-MM）</Comment>
+      <DataType>varchar(8)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="338" parent="237" name="update_time">
+      <Position>10</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="339" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="340" parent="238" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="341" parent="238" name="school_code">
+      <Position>2</Position>
+      <Comment>驾校编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="342" parent="238" name="school_name">
+      <Position>3</Position>
+      <Comment>驾校名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="343" parent="238" name="in_school_sdudent">
+      <Position>4</Position>
+      <Comment>在校学员</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="344" parent="238" name="in_school_rate">
+      <Position>5</Position>
+      <Comment>在校学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="345" parent="238" name="graduate_count">
+      <Position>6</Position>
+      <Comment>毕业学员</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="346" parent="238" name="graduate_rate">
+      <Position>7</Position>
+      <Comment>毕业学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="347" parent="238" name="graduate_date">
+      <Position>8</Position>
+      <Comment>毕业日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="348" parent="238" name="sub_one_rate">
+      <Position>9</Position>
+      <Comment>科目一通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="349" parent="238" name="sub_one_rank">
+      <Position>10</Position>
+      <Comment>科目一排名</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="350" parent="238" name="sub_two_rate">
+      <Position>11</Position>
+      <Comment>科目二通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="351" parent="238" name="sub_two_rank">
+      <Position>12</Position>
+      <Comment>科目二排名</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="352" parent="238" name="sub_three_rate">
+      <Position>13</Position>
+      <Comment>科目三通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="353" parent="238" name="sub_three_rank">
+      <Position>14</Position>
+      <Comment>科目三排名</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="354" parent="238" name="sub_four_rate">
+      <Position>15</Position>
+      <Comment>科目四通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="355" parent="238" name="sub_four_rank">
+      <Position>16</Position>
+      <Comment>科目四排名</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="356" parent="238" name="one_pass_rate">
+      <Position>17</Position>
+      <Comment>一次通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="357" parent="238" name="extra_pass_rate">
+      <Position>18</Position>
+      <Comment>补考通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="358" parent="238" name="unpass_rate">
+      <Position>19</Position>
+      <Comment>未通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="359" parent="238" name="update_time">
+      <Position>20</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="360" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="361" parent="239" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="362" parent="239" name="school_count">
+      <Position>2</Position>
+      <Comment>驾校数量</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="363" parent="239" name="in_school_count">
+      <Position>3</Position>
+      <Comment>在校人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="364" parent="239" name="graduate_count">
+      <Position>4</Position>
+      <Comment>毕业人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="365" parent="239" name="graduate_date">
+      <Position>5</Position>
+      <Comment>毕业日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="366" parent="239" name="pass_rate">
+      <Position>6</Position>
+      <Comment>科目一通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="367" parent="239" name="update_time">
+      <Position>7</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="368" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="369" parent="240" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="370" parent="240" name="school_code">
+      <Position>2</Position>
+      <Comment>驾校编码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="371" parent="240" name="school_name">
+      <Position>3</Position>
+      <Comment>驾校名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="372" parent="240" name="in_school_count">
+      <Position>4</Position>
+      <Comment>在校人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="373" parent="240" name="graduate_count">
+      <Position>5</Position>
+      <Comment>毕业人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="374" parent="240" name="graduate_date">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="375" parent="240" name="pass_rate">
+      <Position>7</Position>
+      <Comment>科目一通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="376" parent="240" name="update_time">
+      <Position>8</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="377" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="378" parent="241" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="379" parent="241" name="school_code">
+      <Position>2</Position>
+      <Comment>驾校编码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="380" parent="241" name="school_name">
+      <Position>3</Position>
+      <Comment>驾校名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="381" parent="241" name="pass_rate">
+      <Position>4</Position>
+      <Comment>科目一通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="382" parent="241" name="exam_count">
+      <Position>5</Position>
+      <Comment>科目一当年累计考试人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="383" parent="241" name="pass_count">
+      <Position>6</Position>
+      <Comment>科目一当年累计通过人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="384" parent="241" name="sub_one_rank">
+      <Position>7</Position>
+      <Comment>科目一排名</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="385" parent="241" name="one_pass_rate">
+      <Position>8</Position>
+      <Comment>一次通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="386" parent="241" name="extra_pass_rate">
+      <Position>9</Position>
+      <Comment>补考通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="387" parent="241" name="unpass_rate">
+      <Position>10</Position>
+      <Comment>未通过学员占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="388" parent="241" name="year">
+      <Position>11</Position>
+      <Comment>年份（yyyy）</Comment>
+      <DataType>varchar(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="389" parent="241" name="update_time">
+      <Position>12</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="390" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="391" parent="242" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="392" parent="242" name="entrance_code">
+      <Position>2</Position>
+      <Comment>门禁编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="393" parent="242" name="identity_card">
+      <Position>3</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="394" parent="242" name="examinee_name">
+      <Position>4</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="395" parent="242" name="cross_time">
+      <Position>5</Position>
+      <Comment>通过时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="396" parent="242" name="cross_exam_code">
+      <Position>6</Position>
+      <Comment>通过考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="397" parent="242" name="sub_date">
+      <Position>7</Position>
+      <Comment>预约日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="398" parent="242" name="sub_exam_code">
+      <Position>8</Position>
+      <Comment>预约考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="399" parent="242" name="verify_res">
+      <Position>9</Position>
+      <Comment>校验结果（01：门禁一无信息通过预警；02：预约时间不准确考场准确通过门禁一预警；03：预约考场不准确时间准确通过门禁一预警；04：预约考场不准确时间不准确通过门禁一预警；05：预约信息正确通过门禁一失败预警）</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="400" parent="242" name="is_crossed">
+      <Position>10</Position>
+      <Comment>是否通过（0：不通过；1：通过）</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="401" parent="242" name="update_time">
+      <Position>11</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="402" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="403" parent="243" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="404" parent="243" name="entrance_code">
+      <Position>2</Position>
+      <Comment>门禁编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="405" parent="243" name="examinee_name">
+      <Position>3</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="406" parent="243" name="identity_card">
+      <Position>4</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="407" parent="243" name="examroom_code">
+      <Position>5</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="408" parent="243" name="exam_score">
+      <Position>6</Position>
+      <Comment>考试分数</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="409" parent="243" name="exam_res">
+      <Position>7</Position>
+      <Comment>考试结果</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="410" parent="243" name="is_passed">
+      <Position>8</Position>
+      <Comment>是否通过</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="411" parent="243" name="update_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="412" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="413" parent="244" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="414" parent="244" name="examroom_code">
+      <Position>2</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="415" parent="244" name="entrance_type">
+      <Position>3</Position>
+      <Comment>门禁类型</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="416" parent="244" name="pass_count">
+      <Position>4</Position>
+      <Comment>通过人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="417" parent="244" name="unpass_count">
+      <Position>5</Position>
+      <Comment>通过失败人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="418" parent="244" name="unpass_rate">
+      <Position>6</Position>
+      <Comment>通过失败占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="419" parent="244" name="last_pass_time">
+      <Position>7</Position>
+      <Comment>该门禁当天最后一次通过人的时间（大数据平台推送的时间）</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="420" parent="244" name="update_time">
+      <Position>8</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="421" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="422" parent="245" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="423" parent="245" name="entrance_code">
+      <Position>2</Position>
+      <Comment>门禁编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="424" parent="245" name="examinee_name">
+      <Position>3</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="425" parent="245" name="identity_card">
+      <Position>4</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="426" parent="245" name="examroom_code">
+      <Position>5</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="427" parent="245" name="exam_score">
+      <Position>6</Position>
+      <Comment>考试分数</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="428" parent="245" name="exam_res">
+      <Position>7</Position>
+      <Comment>考试结果</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="429" parent="245" name="is_passed">
+      <Position>8</Position>
+      <Comment>是否通过</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="430" parent="245" name="update_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="431" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="432" parent="246" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="433" parent="246" name="examinee_name">
+      <Position>2</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="434" parent="246" name="idetity_card">
+      <Position>3</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="435" parent="246" name="school_code">
+      <Position>4</Position>
+      <Comment>考生驾校编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="436" parent="246" name="school_name">
+      <Position>5</Position>
+      <Comment>考生驾校名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="437" parent="246" name="examroom_code">
+      <Position>6</Position>
+      <Comment>考生考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="438" parent="246" name="examroom_name">
+      <Position>7</Position>
+      <Comment>考生考场名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="439" parent="246" name="supervisor_name">
+      <Position>8</Position>
+      <Comment>监考人</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="440" parent="246" name="exam_date">
+      <Position>9</Position>
+      <Comment>考试日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="441" parent="246" name="exam_score">
+      <Position>10</Position>
+      <Comment>考试成绩</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="442" parent="246" name="exam_res">
+      <Position>11</Position>
+      <Comment>考试结果</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="443" parent="246" name="update_time">
+      <Position>12</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="444" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="445" parent="247" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="446" parent="247" name="examinee_name">
+      <Position>2</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="447" parent="247" name="identity_card">
+      <Position>3</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="448" parent="247" name="identity_photo">
+      <Position>4</Position>
+      <Comment>身份证照片</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="449" parent="247" name="entrance2_photo">
+      <Position>5</Position>
+      <Comment>门禁二照片</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="450" parent="247" name="gather_time">
+      <Position>6</Position>
+      <Comment>采集时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="451" parent="247" name="registration_photo">
+      <Position>7</Position>
+      <Comment>报名照片</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="452" parent="247" name="verify_res">
+      <Position>8</Position>
+      <Comment>校验结果（01：门禁二照片与报名照片不一致；02：报名照片与门禁二照片不一致；03：身份证照片与门禁二照片不一致）</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="453" parent="247" name="is_crossed">
+      <Position>9</Position>
+      <Comment>是否通过（1：通过；0：不通过）</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="454" parent="247" name="update_time">
+      <Position>10</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="455" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="456" parent="248" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="457" parent="248" name="examinee_name">
+      <Position>2</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="458" parent="248" name="exam_code">
+      <Position>3</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="459" parent="248" name="identity_card">
+      <Position>4</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="460" parent="248" name="identity_photo">
+      <Position>5</Position>
+      <Comment>身份证照片</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="461" parent="248" name="registration_photo">
+      <Position>6</Position>
+      <Comment>报名照片</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="462" parent="248" name="snapshot_photo1">
+      <Position>7</Position>
+      <Comment>抓拍照片1</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="463" parent="248" name="snapshot_photo2">
+      <Position>8</Position>
+      <Comment>抓拍照片2</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="464" parent="248" name="snapshot_photo3">
+      <Position>9</Position>
+      <Comment>抓拍照片3</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="465" parent="248" name="snapshot_photo4">
+      <Position>10</Position>
+      <Comment>抓拍照片4</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="466" parent="248" name="snapshot_photo5">
+      <Position>11</Position>
+      <Comment>抓拍照片5</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="467" parent="248" name="snapshot_photo6">
+      <Position>12</Position>
+      <Comment>抓拍照片6</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="468" parent="248" name="verify_res">
+      <Position>13</Position>
+      <Comment>校验结果</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="469" parent="248" name="update_time">
+      <Position>14</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="470" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="471" parent="249" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="472" parent="249" name="examroom_code">
+      <Position>2</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="473" parent="249" name="examroom_name">
+      <Position>3</Position>
+      <Comment>考场名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="474" parent="249" name="update_time">
+      <Position>4</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="475" parent="249" name="index_name">
+      <ColNames>examroom_code</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="476" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="477" parent="250" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="478" parent="250" name="hardware_code">
+      <Position>2</Position>
+      <Comment>硬件编码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="479" parent="250" name="hardware_type">
+      <Position>3</Position>
+      <Comment>硬件类型</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="480" parent="250" name="hardware_name">
+      <Position>4</Position>
+      <Comment>硬件名称</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="481" parent="250" name="examroom_code">
+      <Position>5</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="482" parent="250" name="examroom_name">
+      <Position>6</Position>
+      <Comment>考场名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="483" parent="250" name="update_time">
+      <Position>7</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="484" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="485" parent="251" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="486" parent="251" name="examroom_code">
+      <Position>2</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="487" parent="251" name="hardware_type">
+      <Position>3</Position>
+      <Comment>硬件类型</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="488" parent="251" name="open_count">
+      <Position>4</Position>
+      <Comment>设备开启数量</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="489" parent="251" name="excp_count">
+      <Position>5</Position>
+      <Comment>设备异常数量</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="490" parent="251" name="update_time">
+      <Position>6</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="491" parent="251" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="492" parent="252" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="493" parent="252" name="examroom_code">
+      <Position>2</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="494" parent="252" name="hardware_code">
+      <Position>3</Position>
+      <Comment>硬件编码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="495" parent="252" name="hardware_type">
+      <Position>4</Position>
+      <Comment>硬件类型（entrance1、entrance2、entrance3、camera、vst、wst、placement）</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="496" parent="252" name="hardware_status">
+      <Position>5</Position>
+      <Comment>硬件状态（0：不正常；1：正常）</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="497" parent="252" name="status_time">
+      <Position>6</Position>
+      <Comment>状态更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="498" parent="252" name="update_time">
+      <Position>7</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="499" parent="252" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="500" parent="253" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="501" parent="253" name="examroom_code">
+      <Position>2</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="502" parent="253" name="hardware_code">
+      <Position>3</Position>
+      <Comment>硬件编码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="503" parent="253" name="hardware_type">
+      <Position>4</Position>
+      <Comment>硬件类型（entrance1、entrance2、entrance3、camera、vst、wst、placement）</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="504" parent="253" name="hardware_status">
+      <Position>5</Position>
+      <Comment>硬件状态（0：不正常；1：正常）</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="505" parent="253" name="status_time">
+      <Position>6</Position>
+      <Comment>状态更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="506" parent="253" name="update_time">
+      <Position>7</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="507" parent="253" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="508" parent="254" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="509" parent="254" name="examinee_name">
+      <Position>2</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="510" parent="254" name="identity_card">
+      <Position>3</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="511" parent="254" name="examroom_code">
+      <Position>4</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="512" parent="254" name="exam_date">
+      <Position>5</Position>
+      <Comment>考试日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="513" parent="254" name="sub_date">
+      <Position>6</Position>
+      <Comment>预约日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="514" parent="254" name="sub_exam_code">
+      <Position>7</Position>
+      <Comment>预约考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="515" parent="254" name="verify_res">
+      <Position>8</Position>
+      <Comment>校验结果（00:通过审核正常，01：预约时间非当前时间；02：预约考场非当前考场；03：预约考场非当前考场，预约时间非当前时间,04门禁一无记录或者通过失败并且考试系统存在但是预约信息不存在相关信息）</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="516" parent="254" name="update_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="517" parent="254" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="518" parent="255" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="519" parent="255" name="examinee_name">
+      <Position>2</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="520" parent="255" name="identity_card">
+      <Position>3</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="521" parent="255" name="examroom_code">
+      <Position>4</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="522" parent="255" name="update_time">
+      <Position>5</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="523" parent="255" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="524" parent="256" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="525" parent="256" name="examinee_name">
+      <Position>2</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="526" parent="256" name="identity_card">
+      <Position>3</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="527" parent="256" name="examroom_code">
+      <Position>4</Position>
+      <Comment>考试考场</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="528" parent="256" name="first_score">
+      <Position>5</Position>
+      <Comment>第一次成绩</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="529" parent="256" name="first_time">
+      <Position>6</Position>
+      <Comment>第一次出分时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="530" parent="256" name="extra_score">
+      <Position>7</Position>
+      <Comment>补考成绩</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="531" parent="256" name="extra_time">
+      <Position>8</Position>
+      <Comment>补考出分时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="532" parent="256" name="update_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="533" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="534" parent="257" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="535" parent="257" name="examroom_code">
+      <Position>2</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="536" parent="257" name="station_code">
+      <Position>3</Position>
+      <Comment>机位编码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="537" parent="257" name="exam_date">
+      <Position>4</Position>
+      <Comment>考试日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="538" parent="257" name="exam_count">
+      <Position>5</Position>
+      <Comment>考试人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="539" parent="257" name="pass_count">
+      <Position>6</Position>
+      <Comment>通过人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="540" parent="257" name="station_pass_rate">
+      <Position>7</Position>
+      <Comment>机位通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="541" parent="257" name="update_time">
+      <Position>8</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="542" parent="257" name="index_name">
+      <ColNames>examroom_code
+exam_count
+pass_count</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="543" parent="257" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="544" parent="258" name="id_">
+      <Position>1</Position>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="545" parent="258" name="job_name">
+      <Position>2</Position>
+      <Comment>job名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="546" parent="258" name="job_group">
+      <Position>3</Position>
+      <Comment>job分组</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="547" parent="258" name="job_status">
+      <Position>4</Position>
+      <Comment>job状态: 0:暂停 1:启用</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="548" parent="258" name="startNow">
+      <Position>5</Position>
+      <Comment>服务重启是否立即执行：0:立即启用 1:手动调用</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="549" parent="258" name="cronExpression">
+      <Position>6</Position>
+      <Comment>调度时间规则</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="550" parent="258" name="concurrent">
+      <Position>7</Position>
+      <Comment>是否并发启动任务：0:禁用 1:启用</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="551" parent="258" name="description">
+      <Position>8</Position>
+      <Comment>job描述</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="552" parent="258" name="clazz">
+      <Position>9</Position>
+      <Comment>业务实现类全类名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="553" parent="258" name="target_method">
+      <Position>10</Position>
+      <Comment>业务实现方法</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="554" parent="258" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="555" parent="259" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="556" parent="259" name="process_id">
+      <Position>2</Position>
+      <Comment>流程id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="557" parent="259" name="task_id">
+      <Position>3</Position>
+      <Comment>任务id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="558" parent="259" name="user_code">
+      <Position>4</Position>
+      <Comment>处理人</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="559" parent="259" name="user_name">
+      <Position>5</Position>
+      <Comment>处理人姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="560" parent="259" name="deal_link">
+      <Position>6</Position>
+      <Comment>处理环节</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="561" parent="259" name="pass_status">
+      <Position>7</Position>
+      <Comment>日志状态（通过，不通过，处理，催办）</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="562" parent="259" name="deal_opinion">
+      <Position>8</Position>
+      <Comment>处理信息</Comment>
+      <DataType>varchar(4000)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="563" parent="259" name="deal_time">
+      <Position>9</Position>
+      <Comment>处理时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="564" parent="259" name="deal_status">
+      <Position>10</Position>
+      <Comment>处理状态</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="565" parent="259" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="566" parent="260" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="567" parent="260" name="menu_name">
+      <Position>2</Position>
+      <Comment>菜单名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="568" parent="260" name="menu_uri">
+      <Position>3</Position>
+      <Comment>菜单路径</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="569" parent="260" name="menu_parent_id">
+      <Position>4</Position>
+      <Comment>菜单父id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="570" parent="260" name="menu_order">
+      <Position>5</Position>
+      <Comment>菜单排序</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="571" parent="260" name="menu_is_blank">
+      <Position>6</Position>
+      <Comment>菜单类型</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="572" parent="260" name="menu_images">
+      <Position>7</Position>
+      <Comment>菜单图片</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="573" parent="260" name="update_time">
+      <Position>8</Position>
+      <Comment>菜单更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="574" parent="260" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="575" parent="261" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="576" parent="261" name="menu_code">
+      <Position>2</Position>
+      <Comment>菜单id</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="577" parent="261" name="role_code">
+      <Position>3</Position>
+      <Comment>用户编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="578" parent="261" name="update_time">
+      <Position>4</Position>
+      <Comment>用户菜单更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="579" parent="261" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="580" parent="262" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="581" parent="262" name="menu_code">
+      <Position>2</Position>
+      <Comment>菜单id</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="582" parent="262" name="user_code">
+      <Position>3</Position>
+      <Comment>用户编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="583" parent="262" name="update_time">
+      <Position>4</Position>
+      <Comment>用户菜单更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="584" parent="262" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="585" parent="263" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="586" parent="263" name="org_code">
+      <Position>2</Position>
+      <Comment>组织编码</Comment>
+      <DataType>varchar(36)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="587" parent="263" name="org_name">
+      <Position>3</Position>
+      <Comment>组织名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="588" parent="263" name="org_full_name">
+      <Position>4</Position>
+      <Comment>组织全称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="589" parent="263" name="org_parent_code">
+      <Position>5</Position>
+      <Comment>组织父id</Comment>
+      <DataType>varchar(36)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="590" parent="263" name="org_level">
+      <Position>6</Position>
+      <Comment>组织级别</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="591" parent="263" name="org_business">
+      <Position>7</Position>
+      <Comment>业务描述</Comment>
+      <DataType>varchar(500)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="592" parent="263" name="org_responsible">
+      <Position>8</Position>
+      <Comment>责任人</Comment>
+      <DataType>varchar(36)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="593" parent="263" name="org_contact">
+      <Position>9</Position>
+      <Comment>联系人</Comment>
+      <DataType>varchar(36)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="594" parent="263" name="org_phone">
+      <Position>10</Position>
+      <Comment>联系人电话</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="595" parent="263" name="org_order">
+      <Position>11</Position>
+      <Comment>组织排序</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="596" parent="263" name="update_time">
+      <Position>12</Position>
+      <Comment>组织新增时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="597" parent="263" name="status">
+      <Position>13</Position>
+      <Comment>数据状态：0，正常，1，删除</Comment>
+      <DataType>int(2)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="598" parent="263" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="599" parent="264" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="600" parent="264" name="position_code">
+      <Position>2</Position>
+      <Comment>职位编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="601" parent="264" name="position_name">
+      <Position>3</Position>
+      <Comment>职位名称</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="602" parent="264" name="insert_time">
+      <Position>4</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="603" parent="264" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="604" parent="265" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="605" parent="265" name="process_number">
+      <Position>2</Position>
+      <Comment>生成的流程编号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="606" parent="265" name="task_id">
+      <Position>3</Position>
+      <Comment>任务id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="607" parent="265" name="task_name">
+      <Position>4</Position>
+      <Comment>任务环节</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="608" parent="265" name="warning_id">
+      <Position>5</Position>
+      <Comment>预警id</Comment>
+      <DataType>bigint(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="609" parent="265" name="user_code">
+      <Position>6</Position>
+      <Comment>处理人id</Comment>
+      <DataType>varchar(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="610" parent="265" name="user_name">
+      <Position>7</Position>
+      <Comment>处理人姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="611" parent="265" name="deal_status">
+      <Position>8</Position>
+      <Comment>状态(a 未处理；审核未通过,b 未审核,c 已完成,d 未催办)</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="612" parent="265" name="deal_overtime">
+      <Position>9</Position>
+      <Comment>处理人超时时间点</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="613" parent="265" name="first_overtime">
+      <Position>10</Position>
+      <Comment>一级处理人超时时间点</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="614" parent="265" name="second_overtime">
+      <Position>11</Position>
+      <Comment>二级处理人超时时间点</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="615" parent="265" name="three_overtime">
+      <Position>12</Position>
+      <Comment>三级处理人超时时间点</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="616" parent="265" name="four_overtime">
+      <Position>13</Position>
+      <Comment>四级处理人超时时间点</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="617" parent="265" name="five_overtime">
+      <Position>14</Position>
+      <Comment>五级处理人超时时间点</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="618" parent="265" name="update_time">
+      <Position>15</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="619" parent="265" name="create_time">
+      <Position>16</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="620" parent="265" name="press_status">
+      <Position>17</Position>
+      <Comment>催办状态(1 未催办，2 一级，3 二级，4 三级，5 四级，6 五级）</Comment>
+      <DataType>int(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="621" parent="265" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="622" parent="266" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="623" parent="266" name="role_code">
+      <Position>2</Position>
+      <Comment>角色编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="624" parent="266" name="role_name">
+      <Position>3</Position>
+      <Comment>角色名称</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="625" parent="266" name="role_order">
+      <Position>4</Position>
+      <Comment>角色排序</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="626" parent="266" name="update_time">
+      <Position>5</Position>
+      <Comment>角色更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="627" parent="266" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="628" parent="267" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="629" parent="267" name="user_code">
+      <Position>2</Position>
+      <Comment>用户表</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="630" parent="267" name="role_code">
+      <Position>3</Position>
+      <Comment>角色id</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="631" parent="267" name="update_time">
+      <Position>4</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="632" parent="267" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="633" parent="268" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="634" parent="268" name="process_id">
+      <Position>2</Position>
+      <Comment>流程id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="635" parent="268" name="task_name">
+      <Position>3</Position>
+      <Comment>任务名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="636" parent="268" name="user_code">
+      <Position>4</Position>
+      <Comment>用户编码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="637" parent="268" name="start_time">
+      <Position>5</Position>
+      <Comment>开始时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="638" parent="268" name="end_time">
+      <Position>6</Position>
+      <Comment>结束时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="639" parent="268" name="deal_status">
+      <Position>7</Position>
+      <Comment>处理状态</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="640" parent="268" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="641" parent="269" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="642" parent="269" name="warning_code">
+      <Position>2</Position>
+      <Comment>预警编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="643" parent="269" name="warning_name">
+      <Position>3</Position>
+      <Comment>预警名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="644" parent="269" name="statis_method">
+      <Position>4</Position>
+      <Comment>统计方式</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="645" parent="269" name="value_toplimit">
+      <Position>5</Position>
+      <Comment>阈值上限</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="646" parent="269" name="value_lowerlimit">
+      <Position>6</Position>
+      <Comment>阈值下线</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="647" parent="269" name="value_unit">
+      <Position>7</Position>
+      <Comment>阈值单位(1：/，2：个，3：次，4：%)</Comment>
+      <DataType>varchar(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="648" parent="269" name="is_start">
+      <Position>8</Position>
+      <Comment>开启状态（0 开启，1 关闭）</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="649" parent="269" name="update_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="650" parent="269" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="651" parent="270" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="652" parent="270" name="user_code">
+      <Position>2</Position>
+      <Comment>用户编码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="653" parent="270" name="user_pwd">
+      <Position>3</Position>
+      <Comment>密码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="654" parent="270" name="user_name">
+      <Position>4</Position>
+      <Comment>用户名称</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="655" parent="270" name="real_name">
+      <Position>5</Position>
+      <Comment>真实姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="656" parent="270" name="telephone">
+      <Position>6</Position>
+      <Comment>用户电话号码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="657" parent="270" name="email">
+      <Position>7</Position>
+      <Comment>用户邮箱</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="658" parent="270" name="id_number">
+      <Position>8</Position>
+      <Comment>身份证号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="659" parent="270" name="positioin_code">
+      <Position>9</Position>
+      <Comment>职位编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="660" parent="270" name="position_name">
+      <Position>10</Position>
+      <Comment>职位名称</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="661" parent="270" name="businss_code">
+      <Position>11</Position>
+      <Comment>所属业务编码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="662" parent="270" name="business_name">
+      <Position>12</Position>
+      <Comment>所属业务名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="663" parent="270" name="role_codes">
+      <Position>13</Position>
+      <Comment>角色编码</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="664" parent="270" name="role_names">
+      <Position>14</Position>
+      <Comment>角色名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="665" parent="270" name="org_code">
+      <Position>15</Position>
+      <Comment>用户组织id</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="666" parent="270" name="org_name">
+      <Position>16</Position>
+      <Comment>用户组织名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="667" parent="270" name="org_fullname">
+      <Position>17</Position>
+      <Comment>用户组织全称</Comment>
+      <DataType>varchar(4000)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="668" parent="270" name="org_fullcode">
+      <Position>18</Position>
+      <Comment>用户组织code全称</Comment>
+      <DataType>varchar(4000)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="669" parent="270" name="user_login_times">
+      <Position>19</Position>
+      <Comment>用户登录次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="670" parent="270" name="user_status">
+      <Position>20</Position>
+      <Comment>用户状态（0 有效，1 失效）</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="671" parent="270" name="start_status">
+      <Position>21</Position>
+      <Comment>启动状态（0 启动、1 失效）</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="672" parent="270" name="insert_time">
+      <Position>22</Position>
+      <Comment>用户插入时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="673" parent="270" name="update_time">
+      <Position>23</Position>
+      <Comment>用户修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="674" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="675" parent="271" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="676" parent="271" name="warning_code">
+      <Position>2</Position>
+      <Comment>预警编码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="677" parent="271" name="warning_name">
+      <Position>3</Position>
+      <Comment>预警名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="678" parent="271" name="deal_code">
+      <Position>4</Position>
+      <Comment>处理人编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="679" parent="271" name="push_day">
+      <Position>5</Position>
+      <Comment>推送时长</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="680" parent="271" name="check_code">
+      <Position>6</Position>
+      <Comment>审核人编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="681" parent="271" name="max_level">
+      <Position>7</Position>
+      <Comment>最高推送级别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="682" parent="271" name="first_level_code">
+      <Position>8</Position>
+      <Comment>一级催办人编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="683" parent="271" name="first_level_name">
+      <Position>9</Position>
+      <Comment>一级催办人姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="684" parent="271" name="first_push_day">
+      <Position>10</Position>
+      <Comment>一级催办时长</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="685" parent="271" name="second_level_code">
+      <Position>11</Position>
+      <Comment>二级催办人编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="686" parent="271" name="second_level_name">
+      <Position>12</Position>
+      <Comment>二级催办人姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="687" parent="271" name="second_push_day">
+      <Position>13</Position>
+      <Comment>二级催办时长</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="688" parent="271" name="three_level_code">
+      <Position>14</Position>
+      <Comment>三级催办人编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="689" parent="271" name="three_level_name">
+      <Position>15</Position>
+      <Comment>三级催办人姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="690" parent="271" name="three_push_day">
+      <Position>16</Position>
+      <Comment>三级催办时长</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="691" parent="271" name="four_level_code">
+      <Position>17</Position>
+      <Comment>四级催办人编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="692" parent="271" name="four_level_name">
+      <Position>18</Position>
+      <Comment>四级催办人姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="693" parent="271" name="four_push_day">
+      <Position>19</Position>
+      <Comment>四级催办时长</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="694" parent="271" name="five_level_code">
+      <Position>20</Position>
+      <Comment>五级催办人编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="695" parent="271" name="five_level_name">
+      <Position>21</Position>
+      <Comment>五级催办人姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="696" parent="271" name="five_push_day">
+      <Position>22</Position>
+      <Comment>五级催办时长</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="697" parent="271" name="system_push">
+      <Position>23</Position>
+      <Comment>是否系统推送（0 是，1 否）</Comment>
+      <DataType>varchar(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="698" parent="271" name="message_push">
+      <Position>24</Position>
+      <Comment>是否短信推送（0 是，1 否）</Comment>
+      <DataType>varchar(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="699" parent="271" name="push_message_region">
+      <Position>25</Position>
+      <Comment>推送区间（格式：08：00-12：00）</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="700" parent="271" name="update_time">
+      <Position>26</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="701" parent="271" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="702" parent="272" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="703" parent="272" name="examinee_name">
+      <Position>2</Position>
+      <Comment>考生姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="704" parent="272" name="idetity_card">
+      <Position>3</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="705" parent="272" name="warning_code">
+      <Position>4</Position>
+      <Comment>预警编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="706" parent="272" name="warning_id">
+      <Position>5</Position>
+      <Comment>预警id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="707" parent="272" name="warning_time">
+      <Position>6</Position>
+      <Comment>预警时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="708" parent="272" name="update_time">
+      <Position>7</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="709" parent="272" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="710" parent="273" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="711" parent="273" name="examroom_code">
+      <Position>2</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="712" parent="273" name="examroom_date">
+      <Position>3</Position>
+      <Comment>考试日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="713" parent="273" name="subscribe_count">
+      <Position>4</Position>
+      <Comment>预约人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="714" parent="273" name="exam_count">
+      <Position>5</Position>
+      <Comment>考试人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="715" parent="273" name="pass_count">
+      <Position>6</Position>
+      <Comment>考试通过人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="716" parent="273" name="pass_rate">
+      <Position>7</Position>
+      <Comment>考试通过率</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="717" parent="273" name="missing_count">
+      <Position>8</Position>
+      <Comment>缺考人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="718" parent="273" name="absent_rate">
+      <Position>9</Position>
+      <Comment>缺考人数占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="719" parent="273" name="manual_audit_count">
+      <Position>10</Position>
+      <Comment>人工审核人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="720" parent="273" name="manual_audit_rate">
+      <Position>11</Position>
+      <Comment>人工审核占比</Comment>
+      <DataType>decimal(10,6 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="721" parent="273" name="update_time">
+      <Position>12</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="722" parent="273" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="723" parent="274" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="724" parent="274" name="hardware_code">
+      <Position>2</Position>
+      <Comment>硬件编码</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="725" parent="274" name="hardware_type">
+      <Position>3</Position>
+      <Comment>硬件类型</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="726" parent="274" name="examroom_code">
+      <Position>4</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="727" parent="274" name="examroom_name">
+      <Position>5</Position>
+      <Comment>考场名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="728" parent="274" name="warning_code">
+      <Position>6</Position>
+      <Comment>预警编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="729" parent="274" name="warning_id">
+      <Position>7</Position>
+      <Comment>预警id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="730" parent="274" name="warning_time">
+      <Position>8</Position>
+      <Comment>预警时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="731" parent="274" name="update_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="732" parent="274" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="733" parent="275" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="734" parent="275" name="examroom_code">
+      <Position>2</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="735" parent="275" name="examroom_name">
+      <Position>3</Position>
+      <Comment>考场名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="736" parent="275" name="exam_date">
+      <Position>4</Position>
+      <Comment>考试日期</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="737" parent="275" name="examinee_count">
+      <Position>5</Position>
+      <Comment>考试人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="738" parent="275" name="warning_code">
+      <Position>6</Position>
+      <Comment>预警编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="739" parent="275" name="warning_total">
+      <Position>7</Position>
+      <Comment>预警总数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="740" parent="275" name="undeal_count">
+      <Position>8</Position>
+      <Comment>未处理数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="741" parent="275" name="create_time">
+      <Position>9</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="742" parent="275" name="update_time">
+      <Position>10</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="743" parent="275" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="744" parent="276" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="745" parent="276" name="warning_id">
+      <Position>2</Position>
+      <Comment>预警ID</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="746" parent="276" name="examinee_code">
+      <Position>3</Position>
+      <Comment>考生编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="747" parent="276" name="examroom_code">
+      <Position>4</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="748" parent="276" name="warning_detail">
+      <Position>5</Position>
+      <Comment>预警详情</Comment>
+      <DataType>varchar(4000)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="749" parent="276" name="update_time">
+      <Position>6</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="750" parent="276" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="751" parent="277" name="id_">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="752" parent="277" name="warntype_code">
+      <Position>2</Position>
+      <Comment>预警点编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="753" parent="277" name="warntype_name">
+      <Position>3</Position>
+      <Comment>预警点名称</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="754" parent="277" name="warning_code">
+      <Position>4</Position>
+      <Comment>预警编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="755" parent="277" name="warning_name">
+      <Position>5</Position>
+      <Comment>预警名称</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="756" parent="277" name="examroom_code">
+      <Position>6</Position>
+      <Comment>考场编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="757" parent="277" name="examroom_name">
+      <Position>7</Position>
+      <Comment>考场名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="758" parent="277" name="warning_desc">
+      <Position>8</Position>
+      <Comment>预警描述</Comment>
+      <DataType>varchar(1000)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="759" parent="277" name="deal_actor">
+      <Position>9</Position>
+      <Comment>处理人编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="760" parent="277" name="deal_actor_name">
+      <Position>10</Position>
+      <Comment>处理人姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="761" parent="277" name="check_actor">
+      <Position>11</Position>
+      <Comment>审核人编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="762" parent="277" name="check_actor_name">
+      <Position>12</Position>
+      <Comment>审核人姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="763" parent="277" name="urge_level">
+      <Position>13</Position>
+      <Comment>催办级别</Comment>
+      <DataType>varchar(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="764" parent="277" name="warning_time">
+      <Position>14</Position>
+      <Comment>预警时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="765" parent="277" name="update_time">
+      <Position>15</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="766" parent="277" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="767" parent="278" name="id_">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="768" parent="278" name="warning_code">
+      <Position>2</Position>
+      <Comment>预警编码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="769" parent="278" name="warning_name">
+      <Position>3</Position>
+      <Comment>预警名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="770" parent="278" name="warning_level">
+      <Position>4</Position>
+      <Comment>预警级别</Comment>
+      <DataType>varchar(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="771" parent="278" name="p_warning_code">
+      <Position>5</Position>
+      <Comment>上级预警编码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="772" parent="278" name="update_time">
+      <Position>6</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="773" parent="278" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
